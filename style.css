@@ -46,6 +46,8 @@ body{
     justify-content: center;
 }
 
+/* heroSec */
+
 .bg {
     position: absolute;
     left: 0;
@@ -59,5 +61,28 @@ body{
 .heroSecP {
     color: #ffffff;
     font-style: italic;
+}
+
+.arrow {
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+/* heroSec */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(70,75,90,.6);
+    width: 100%;
+}
+
+.navIcon img {
+        /* -webkit-filter: invert(100%); safari 6.0 - 9.0 */
+    filter: invert(100%);
+    width: 48px;
+    height: 48px;
 }
 
