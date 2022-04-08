@@ -11,8 +11,8 @@ body{
     font-size: 16px;
     line-height: 38px;
     color: #212931;
-    background-color: rgba(70,75,90,.6);
-    background-blend-mode: lighten ;
+    background-color: rgba(70,75,90,1);
+    /* z-index: -2; */
 }
 
 .heading1 {
@@ -21,6 +21,7 @@ body{
     line-height: 80px;
     color: #ffffff;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .heading2 {
@@ -35,6 +36,7 @@ body{
     font-size: 12.8px;
     line-height: 19.2px;
     color: #717981;
+    text-transform: uppercase;
 }
 
 .mainContainer {
@@ -44,6 +46,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 32px;
 }
 
 /* heroSec */
@@ -54,13 +57,23 @@ body{
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: .5;
     z-index: -10;
+}
+
+.heading {
+    margin-top: 140px;
+    max-width: 40%;
+}
+
+.heroP {
+    max-width: 70%;
 }
 
 .heroSecP {
     color: #ffffff;
     font-style: italic;
+    text-align: center;
 }
 
 .arrow {
@@ -71,18 +84,52 @@ body{
 
 /* heroSec */
 
+/* blogSec */
+
+.blogContent {
+    width: 80%;
+}
+
 nav {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: rgba(70,75,90,.6);
+    justify-content: flex-start;
+    position: relative;
+    background-color: rgba(68,73,80,.2);
     width: 100%;
+    z-index: 1;
+    height: 50px;
+}
+
+.h1White {
+    background-color: #ffffff;
+    padding: 16px 25px;
+}
+
+.h1White .heading3 {
+    color: #000000;
+}
+
+.blogh3 {
+    padding: 0 25px;
+    color:#ffffff;
+}
+
+.navIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    position: absolute;
+    right: 25px;
+    margin: 10px;
 }
 
 .navIcon img {
-        /* -webkit-filter: invert(100%); safari 6.0 - 9.0 */
+    /* -webkit-filter: invert(100%); safari 6.0 - 9.0 */
     filter: invert(100%);
-    width: 48px;
-    height: 48px;
+    width: 18px;
+    height: 18px;
 }
 
+/* blogSec */
