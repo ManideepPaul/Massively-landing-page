@@ -29,6 +29,9 @@ body{
     font-size: 64px;
     line-height: 70.4px;
     color: #212931;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
 }
 
 .heading3 {
@@ -111,7 +114,7 @@ nav {
 }
 
 .blogh3 {
-    padding: 0 25px;
+    padding: 25px 25px;
     color:#ffffff;
 }
 
@@ -130,6 +133,61 @@ nav {
     filter: invert(100%);
     width: 18px;
     height: 18px;
+}
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.date {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.line {
+    height: 2px;
+    width: 200%;
+    background-color: #eeeeee;
+    position: absolute;
+}
+
+.l1 {
+    right: -230%;
+}
+
+.l2 {
+    left: -230%;
+}
+
+
+.bigBlog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.bigBlog img {
+    width: 80%;
+}
+
+.bigBlog .heading3 {
+    border: 2px solid black;
+    padding: 10px 30px;
+    color: black;
+}
+
+.blogDesc {
+    text-align: center;
+    width: 50%;
+    font-style: italic;
 }
 
 /* blogSec */
