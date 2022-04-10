@@ -263,3 +263,44 @@ nav {
     /* page */
 
 /* blogSec */
+
+/* endContainer */
+
+.endContainer {
+    background-color: #f5f5f5;
+    display: flex;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contactInfo {
+    width: 50%;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social img {
+    border: 2px solid #eeeeee;
+    border-radius: 44%;
+    padding: 8px;
+    width: 15px;
+    height: 15px;
+}
+
+.borTwo {
+    border-left: 2px solid rgb(205, 204, 204);
+    border-bottom: 2px solid rgb(205, 204, 204);
+    min-height: 25%;
+}
+
+/* endContainer */
