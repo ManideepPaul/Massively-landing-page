@@ -344,7 +344,7 @@ a {
 }
 
 textarea {
-  width: 320px;
+  width: auto;
   height: 120px;
 }
 
