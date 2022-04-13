@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <title>codedamn Project</title>
   </head>
   <body>
@@ -12,6 +13,12 @@
     <div class="mainContainer">
       <!-- heroSec -->
       <!-- <img class="bg" src="./assets/images/bg.jpg" alt="" /> -->
+	  <div class="mobMenu">
+		  <svg>
+			  <img src="./assets/Icon/menu_white_48dp.svg" alt="">
+			</svg>
+			<h1 class="heading1">menu</h1>
+	  </div>
       <div class="heading">
         <h1 class="heading1">This is</h1>
         <h1 class="heading1">Massively</h1>
@@ -192,16 +199,26 @@
               <h3 class="heading3">next &nbsp; ></h3>
             </div>
           </div>
+		  <div class="next page">
+			<h3 class="heading3">next &nbsp; ></h3>
+		  </div>
+          <!-- allBlogs -->
         </div>
         <div class="endContainer">
           <form class="contact">
             <label for="name"><h3 class="heading3">name</h3></label>
-            <input type="text" name="name" class="input"/>
+            <input type="text" name="name" class="input" />
             <label for="email"><h3 class="heading3">email</h3></label>
             <input type="email" class="input" />
             <label for="message"><h3 class="heading3">message</h3></label>
-            <textarea name="message" id="" cols="30" rows="10"  class="input"></textarea>
-            <h3 class="heading3 button">full story</h3>
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              class="input"
+            ></textarea>
+            <h3 class="heading3 button">send message</h3>
           </form>
           <aside class="contactInfo">
             <div class="address borTwo">
@@ -226,7 +243,7 @@
                   src="./assets/Icon/twitter-svgrepo-com.svg"
                   alt="twitter"
                 />
-			  </div>
+              </div>
               <div class="icon">
                 <img
                   src="./assets/Icon/facebook-svgrepo-com.svg"
@@ -247,9 +264,9 @@
         </div>
         <footer>
           <span class="heading3">© untitled</span>
-          <span class="heading3">|</span>
+          <span class="heading3 hidden">|</span>
           <span class="heading3">design : html5 up</span>
-          <span class="heading3">|</span>
+          <span class="heading3 hidden">|</span>
           <span class="heading3">demo images: unsplash</span>
         </footer>
       </section>

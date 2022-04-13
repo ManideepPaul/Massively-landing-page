@@ -79,9 +79,13 @@ body {
     z-index: -10;
 }
 
+.mobMenu {
+    display: none;
+}
+
 .heading {
     margin-top: 140px;
-    max-width: 40%;
+    max-width: 100%;
 }
 
 .heroP {
@@ -176,6 +180,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .line {
@@ -183,6 +188,7 @@ nav {
     width: 200%;
     background-color: #eeeeee;
     position: absolute;
+    box-sizing: border-box;
 }
 
 .l1 {
@@ -202,6 +208,7 @@ nav {
     width: 50%;
     font-style: italic;
 }
+
 
 /* bigBlog  */
 
@@ -263,6 +270,10 @@ nav {
 
 .dot .heading3 {
     color: #eeeeee;
+}
+
+.next {
+    display: none;
 }
 
 /* page */
